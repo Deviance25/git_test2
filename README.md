@@ -1,4 +1,4 @@
-# stepik 3.4
+#  stepik 3.4
 
 l, d = [], {}
 a, b, c, cnt1, cnt2, cnt3 = 0, 0, 0, 0, 0, 0
