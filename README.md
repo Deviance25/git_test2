@@ -29,3 +29,14 @@ for i in d:
             cnt3 += 1
 print(a/cnt1, b/cnt2, c/cnt3)
 
+# stepic 3.6
+
+import requests
+lines = 0
+with open('test.txt', 'r') as site: # считываем ссылку из скаченного файла
+    site = site.read().strip()
+filo = requests.get(site) # GET запрос по полученой ранее ссылке
+for i in filo.text.splitlines(): # считаем строки в файле
+    lines += 1
+print(lines)
+
